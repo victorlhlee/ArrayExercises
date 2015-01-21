@@ -73,15 +73,27 @@ var array = ["a", "r", "r", "a", "y"];
 
 // Create an array of Objects that represent Famous People.
 // Each Object should have a Name, Age, and their Profession as properties
+var famousPeople = [{Name : "Buckwheat", Age : 60, Profession : actor}, {Name : "Gumby", Age : 99, Profession : "Cartoonist"}];
 
 
 // Create an array of songs you'd like Jon to add to the playlist of music 
 // to listen to in class.  Each song should be an object with at least 
 // a title and an artist.
+var songList = [{title : "Don't Stop Believing", artist: "Journey"}, {title : "Crash Into Me", artist: "Dave Matthews Band"}, {title : "In the Air Tonight", artist: "Phil Collins"}];
 
 
 // Create an array of functions. Define any functions you want, they can 
 // be anything! But make sure the syntax is correct :D
+
+var func = [
+  function greetUser(){ 
+    alert('aloha cuzin!');
+    },
+
+   function myFunction(a1, a2){
+    return a1 + a2;
+   } 
+  ];
 
 
 // Create an array of Sublime shortcuts.  Each item should have a keystroke 
@@ -89,5 +101,6 @@ var array = ["a", "r", "r", "a", "y"];
 // You can find Sublime Text Shortcuts by traversing the Sublime Text's GUI
 // e.g. File Menu options.
 
+var sublimeShort = [{keystroke : "command X", command : "cut line"}, {keystroke : "command F", command : "find"}];
 
 
