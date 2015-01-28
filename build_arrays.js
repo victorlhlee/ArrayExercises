@@ -99,16 +99,23 @@ var array = ["a", "r", "r", "a", "y"];
 // Create an array of gem arrays, where each gem array contains gems that 
 // are of a similar color.
 
+var gems = [
+  ["ruby", "spinel", "garnet"], 
+  ["sapphire", "kunzite", "rose quartz"], 
+  ["topaz", "zircon", "agate"],
+];
 
+   
 // Create an array of aisles at a supermarket.  Each aisle is an array of 
 // items you might find in an aisle together.  (e.g. flour and baking 
 // powder would be found in an aisle together so would Apples and Bananas.)
 
+var supermarket = [["milk", "cheese", "yogurt"], ["bread", "donuts"], ["chips", "cookies"]];
 
 // Create an array of three arrays, each array having numbers that add up 
 // to 15, but having no element listed more than once in any array.
 // e.g. each element can only be in one array, and at most once in each array
 
-
+var onefive = [[8,7], [6,9], [5, 10]];
 
 
