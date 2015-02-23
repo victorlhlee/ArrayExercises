@@ -119,14 +119,19 @@
 // third elements should not be equal, but the first and third elements 
 // should be equal.
 
-
+  var ele = [1, 2, 1];
+  
 // Create an array of at least five elements where each element is equal 
 // to the elements adjacent to it.
 
+   var element = [1, 1, 1, 1, 1];
+
 
 // Create an array of at least five reserved Javascript keywords.
-
+  
+  var keywords = ['var', 'return', 'this', 'switch', 'break'];
 
 // Create an array of an array of an array of an array of an array of an 
 // array containing a single element: the number 42.
 
+  var arrays = [[[[[42]]]]];
