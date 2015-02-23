@@ -107,10 +107,12 @@
 // Create an array with three elements, each consisting of a single 
 // character: single quotes, double quotes, and a comma.
 
+  var elements = ['', "", ','];
 
 // Create an array of 1000 elements.  
 // (Contents do not matter, it just needs to have 1000 elements.)
 
+  var thousand = ["1000 elements"];
 
 // Create an array of three elements.  
 // The first and second elements should not be equal, the second and 
@@ -128,4 +130,3 @@
 // Create an array of an array of an array of an array of an array of an 
 // array containing a single element: the number 42.
 
-var onefive = [[8,7], [6,9], [5, 10]];
